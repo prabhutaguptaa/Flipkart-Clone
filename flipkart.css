@@ -1,0 +1,339 @@
+body{
+    /* margin-left: 7vmax;
+    margin-right: 7vmax;
+    position: relative; */
+    /* align-items: center;
+    margin: auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.above{
+    /* height: 36vmin; */
+    width: 86vmax;
+
+    background-color: white;
+    
+
+    
+}
+.line1{
+
+    height: 10vmin;
+    display: flex;
+    top: 0%;
+
+    flex-direction: row;
+}
+.left{
+
+
+    width: 60vmax;
+    background-color: white;
+    display: flex;
+}
+.flip{
+
+    width: 20vmin;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+.flipCont{
+    display: flex;
+    width: 140px;
+    height: 6vmin;
+    margin-top: 7px;
+    margin-left: 5px;
+    background-color: rgb(247, 211, 51);
+    border-radius: 8px;
+}
+.logo{
+    width: 45px;
+    height: 5vmin;
+    margin-top: 3px;
+    margin-left: 3px;
+    background-image:url("flipcart3.jpg") ;
+    background-size: cover;
+}
+.logoTxt{
+  width: 60px;
+    height: 7vmin;
+    margin-top: 7px; 
+    margin-right: 2px;
+
+}
+#txt{
+    font-style: italic;
+    font-weight: 600;
+}
+.icon{
+    display: inline;
+    border: none;
+}
+.icon button{
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 90px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: white;
+
+}
+.ryt{
+    background-color: white;
+    width: 40vmin;
+    display: flex;
+    border: none;
+}
+#location{
+    display: flex;
+    flex-direction: row;
+    width: 35vmin;
+    border: none;
+}
+#location i,p,span{
+    margin-top: 8px;
+    margin-left: 4px;
+    
+}
+#location span{
+    color: blue;
+    font-weight: 600;
+}
+.ryt button{
+     margin-top: 10px;
+    margin-left: 30px;
+    width: 90px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+.line2{
+    height: 12vmin;
+    display: flex;
+}
+.search-box{
+width: 60vmax;
+display: flex;
+background-color: white;
+}
+.insearch{
+    background-color: white;
+    width: 90vmax;
+    height: 7vmin;
+    margin: 8px;
+
+    border: 2px solid;
+    border-color: rgb(66, 158, 215);
+    border-radius: 8px;
+    
+    /* padding: 10px; */
+}
+.insearch button,input{
+margin: 10px;
+height: 30px;
+/* font-size: medium; */
+text-decoration: none;
+border: none;
+/* font-weight: 600; */
+    background-color: white;
+    outline: none;
+
+
+}
+.line3 a{
+    text-decoration: none;
+    color: black;
+}
+.insearch button,i{
+    width: 60px;
+    font-size: large;
+}
+.insearch input{
+    width: 50vmax;
+    margin-left: 1px;
+    color: black;
+}
+.icon-box2{
+    width: 40vmax;
+    background-color: white;
+    display: flex;
+
+}
+.icon-box2 button{
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 90px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: white;
+}.line3{
+    height: 8vmin;
+}
+.line3 button{
+    margin: 2px;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    background-color: white;
+
+}
+.slider {
+  position: relative;
+  width: 100%;
+  /* height: 400px; */
+  height: 25vw;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+border-radius: 10px;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+.slide.active {
+  opacity: 1;
+}
+.images{
+    /* height: 400px; */
+    height: 25vw;
+    /* display: flex; */
+    background-color: rgb(47, 104, 248);
+    margin-top: 5px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-left: 8px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    margin-bottom: 10%;
+    width: 100%;
+    height: 70%;
+    margin-top: 2%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 10px;
+    align-items: center;
+}
+.img{
+    margin-left: 5%;
+    border-radius: 10%;
+    width: 20%;
+    height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+    background-color: white;
+
+}
+.Kopal{
+    height: 28vw;
+    width: 100%;
+    display: flex;
+    margin-top: 2px;
+flex-direction: column;
+border: 1px solid rgb(183, 185, 187);
+}
+.footlines{
+    height: 7vmin;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.ftContact{
+    height: 25vw;
+    width: 100%;
+    /* margin: 0%;
+    padding: 0%; */
+    background-color: rgb(16, 15, 15);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.footerDiv1{
+    display: flex;
+    height: 75%;
+    /* background-color: aquamarine; */
+}
+.footerDiv2{
+    display: flex;
+    flex-direction: row;
+    height: 16%;
+    padding: 0px 15px;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid rgb(109, 129, 140);
+    /* background-color: blue; */
+}
+.ftdiv1a{
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    border-right:0.5px solid rgb(125, 145, 155) ;
+    padding: 4px;
+    margin: 6px;
+    /* background-color: brown; */
+}
+.ftdiv1b{
+    width: 38%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4px;
+    margin: 6px;
+    /* background-color: blueviolet; */
+}
+.ftdiv1a section,.ftdiv1b section{
+    display: flex;
+    flex-direction: column;
+}
+.ftdiv1a p{
+    color: rgb(106, 102, 102);
+
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ftdiv1a a,.ftdiv1b a,.ftdiv1b span{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.ftIconAll{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ftdiv1b p{
+    color: rgb(106, 102, 102);
+font-size: small;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.divnav{
+    width: 70%;
+}
+.divnav nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footerDiv2 a,.footerDiv2 p,.footDiv2 i{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
